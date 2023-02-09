@@ -1,0 +1,61 @@
+.Header-box {
+  background-color: transparent;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.Foto {
+  float: left;
+  width: 50%;
+  height: 700px;
+}
+
+.Foto img {
+  width: 80%;
+}
+
+.Deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.Deskripsi .Info {
+  line-height: 1;
+  color: #000;
+}
+
+.Deskripsi .Price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Deskripsi .Title {
+  margin: 0;
+}
+
+.Deskripsi .Cate {
+  color: #acaeb2;
+}
+
+.Deskripsi a {
+  color: #fff;
+  font-weight: 500;
+  background-color: rgb(255, 159, 159);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 0.8s;
+}
+
+.Deskripsi a:hover {
+  color: #fff;
+  background-color: rgb(221, 135, 135);
+  transition: all 0.8s;
+}
